@@ -13,11 +13,10 @@ export default class App extends Component
       <Root>
         <Router>
           <Scene key="root">
-            <Scene key="home" component={HomePage} />
+            <Scene initial key="home" component={HomePage} hideNavBar/>
           </Scene>
       </Router>
       </Root>
-        
     );
   }
 }
